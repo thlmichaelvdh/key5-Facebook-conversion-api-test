@@ -30,9 +30,7 @@
     "cross-env": "^7.0.3",
     "express": "^4.17.1",
     "nuxt": "^2.15.6",
-    "vuex": "^3.6.2"
-  },
-  "devDependencies": {
+    "vuex": "^3.6.2",
     "ant-design-vue": "^1.7.8"
   }
 }
