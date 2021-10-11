@@ -13,6 +13,7 @@ const adapterConfig = { mongoUri: process.env.MONGODB_URI };
 
 const keystone = new Keystone({
   adapter: new Adapter(adapterConfig),
+  cookieSecret: process.env.COOKIE_SECRET
 });
 
 keystone.createList('Todo', {
