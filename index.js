@@ -4,10 +4,11 @@ const { GraphQLApp } = require('@keystonejs/app-graphql');
 const { AdminUIApp } = require('@keystonejs/app-admin-ui');
 const { NuxtApp } = require('@keystonejs/app-nuxt');
 
+require('dotenv').config();
 
 const { MongooseAdapter: Adapter } = require('@keystonejs/adapter-mongoose');
 const PROJECT_NAME = 'Facebook API Conversion test';
-const adapterConfig = { mongoUri: 'mongodb://hbef3jw4b:q4k2pwnnx@iad2-c13-1.mongo.objectrocket.com:53598,iad2-c13-2.mongo.objectrocket.com:53598,iad2-c13-0.mongo.objectrocket.com:53598/jey5-fb-conversion-api-test?replicaSet=d3e7a810e36c4ba2900565fd77ffd2ad' };
+const adapterConfig = { mongoUri: process.env.MONGODB_URI };
 
 
 const keystone = new Keystone({
@@ -33,7 +34,7 @@ module.exports = {
         '@/plugins/antd-ui'
       ],
       components: ['~/components'],
-      modules: ['~/modules']
+      modules: ['~/modules'],
     }),
   ],
 };

@@ -16,6 +16,11 @@
           <NuxtLink :to="`/shopping-cart`">
             <a-button type="primary">ADD to CART</a-button>
           </NuxtLink>
+          <!--
+          <p>Store {{store.item}} 1</p>
+          <a-button type="default" @click="updateCart">UPDATE CART</a-button>
+
+          -->
         </a-col>
       </a-row>
     </div>
@@ -26,10 +31,12 @@
 <script>
 
 export default {
-  data() {
-    return {
-      item: "valiant",
-    };
-  },
+  methods: {
+    async updateCart() {
+      //console.log('cart:', store );
+      //mutations.SET_CART(state, "valiant");
+      //console.log('cart2:', state.item );
+    }
+  }
 }
 </script>
