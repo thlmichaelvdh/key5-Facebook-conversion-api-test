@@ -1,0 +1,44 @@
+[
+  {
+    "name": "confirmation",
+    "path": "/confirmation",
+    "component": "/Users/mv7/projects/key5-Facebook-conversion-api-test/src/pages/confirmation.vue",
+    "chunkName": "pages/confirmation",
+    "_name": "_4eb6f57a"
+  },
+  {
+    "name": "shopping-cart",
+    "path": "/shopping-cart",
+    "component": "/Users/mv7/projects/key5-Facebook-conversion-api-test/src/pages/shopping-cart.vue",
+    "chunkName": "pages/shopping-cart",
+    "_name": "_8a14de20"
+  },
+  {
+    "name": "car-kart",
+    "path": "/car/kart",
+    "component": "/Users/mv7/projects/key5-Facebook-conversion-api-test/src/pages/car/kart.vue",
+    "chunkName": "pages/car/kart",
+    "_name": "_c7742790"
+  },
+  {
+    "name": "car-toyota",
+    "path": "/car/toyota",
+    "component": "/Users/mv7/projects/key5-Facebook-conversion-api-test/src/pages/car/toyota.vue",
+    "chunkName": "pages/car/toyota",
+    "_name": "_ccb99bc4"
+  },
+  {
+    "name": "car-valiant",
+    "path": "/car/valiant",
+    "component": "/Users/mv7/projects/key5-Facebook-conversion-api-test/src/pages/car/valiant.vue",
+    "chunkName": "pages/car/valiant",
+    "_name": "_c2cc2be2"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/mv7/projects/key5-Facebook-conversion-api-test/src/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_36cc91dd"
+  }
+]

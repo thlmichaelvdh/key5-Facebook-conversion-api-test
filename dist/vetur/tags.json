@@ -1,0 +1,11 @@
+{
+  "Cards": {
+    "description": "Auto imported from components/Cards.vue"
+  },
+  "Navigation": {
+    "description": "Auto imported from components/Navigation.vue"
+  },
+  "Store": {
+    "description": "Auto imported from components/Store.vue"
+  }
+}
