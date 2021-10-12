@@ -11,8 +11,8 @@
   },
   "scripts": {
     "dev": "cross-env NODE_ENV=development DISABLE_LOGGING=true keystone dev",
-    "build": "cross-env NODE_ENV=development keystone build",
-    "start": "cross-env NODE_ENV=development keystone dev",
+    "build": "cross-env NODE_ENV=development keystone build DISABLE_LOGGING=true",
+    "start": "cross-env NODE_ENV=development DISABLE_LOGGING=true keystone dev",
     "create-tables": "cross-env keystone create-tables"
   },
   "repository": "https://github.com/keystonejs/keystone-5/tree/main/packages/create-keystone-5-app/example-projects/nuxt",
@@ -22,12 +22,14 @@
     "@keystonejs/app-admin-ui": "^7.5.2",
     "@keystonejs/app-graphql": "^6.3.2",
     "@keystonejs/app-nuxt": "^5.2.3",
+    "@keystonejs/fields-wysiwyg-tinymce": "^5.4.2",
     "@keystonejs/keystone": "^19.3.3",
+    "@keystonejs/list-plugins": "^8.1.2",
+    "ant-design-vue": "^1.7.8",
     "core-js": "^3.18.2",
     "cross-env": "^7.0.3",
     "express": "^4.17.1",
     "nuxt": "^2.15.6",
-    "vuex": "^3.6.2",
-    "ant-design-vue": "^1.7.8"
+    "vuex": "^3.6.2"
   }
 }
