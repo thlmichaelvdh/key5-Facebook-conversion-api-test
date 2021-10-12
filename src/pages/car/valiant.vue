@@ -12,7 +12,7 @@
           <h4>125,000 miles</h4>
           <p>265 Hemi matching numbers</p>
           <p>Unrestored & orginal condition</p>
-          <p>AUD$249,000</p>
+          <p>AUD$749,000</p>
           <NuxtLink :to="`/shopping-cart`">
             <a-button type="primary">ADD to CART</a-button>
           </NuxtLink>

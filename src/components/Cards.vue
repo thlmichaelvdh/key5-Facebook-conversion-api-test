@@ -13,7 +13,7 @@
             <p>1972</p>
             <p>265ci x3 Weber carbs 325hp</p>
             <p>Most powerful 6cyl in the world in '72</p>
-            <p>from $249,000</p>
+            <p>from $749,000</p>
             <a-button type="primary">VIEW MORE</a-button>
           </a-card>
         </NuxtLink>
