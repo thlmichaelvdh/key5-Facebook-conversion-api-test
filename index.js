@@ -35,6 +35,17 @@ module.exports = {
         '@/plugins/antd-ui'
       ],
       components: ['~/components'],
+
+      modules: [
+        'nuxt-facebook-pixel-module',
+      ],
+      facebook: {
+        /* module options */
+        track: 'PageView',
+        pixelId: '140957418204575',
+        autoPageView: true,
+        disabled: false
+      },
     }),
   ],
 };

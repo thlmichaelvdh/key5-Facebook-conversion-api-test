@@ -30,6 +30,7 @@
     "cross-env": "^7.0.3",
     "express": "^4.17.1",
     "nuxt": "^2.15.6",
+    "nuxt-facebook-pixel-module": "^1.5.0",
     "vuex": "^3.6.2"
   }
 }
