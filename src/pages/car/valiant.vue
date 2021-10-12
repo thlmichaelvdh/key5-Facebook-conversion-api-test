@@ -38,10 +38,11 @@ export default {
         "robots": "noindex, nofollow"
       },
     ],
-    script: ['  !function(f,b,e,v,n,t,s)\n' +
+    script: [
       {
-        src: '  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?\n' +
-                '    n.callMethod.apply(n,arguments):n.queue.push(arguments)};\n' +
+        src: '  !function(f,b,e,v,n,t,s)\n' +
+            '  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?\n' +
+            '    n.callMethod.apply(n,arguments):n.queue.push(arguments)};\n' +
             '    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version=\'2.0\';\n' +
             '    n.queue=[];t=b.createElement(e);t.async=!0;\n' +
             '    t.src=v;s=b.getElementsByTagName(e)[0];\n' +
