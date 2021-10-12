@@ -27,7 +27,6 @@
     "@keystonejs/keystone": "^19.3.3",
     "@keystonejs/list-plugins": "^8.1.2",
     "core-js": "^3.18.2",
-    "core.js": "^0.4.2",
     "cross-env": "^7.0.3",
     "express": "^4.17.1",
     "nuxt": "^2.15.6",
