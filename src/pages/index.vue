@@ -19,6 +19,10 @@ export default {
       {
         "robots": "noindex, nofollow"
       },
+      {
+        "name": "facebook-domain-verification",
+        "content":"v2cxf9yuiexbs5amr9c7sbpw1sjxrr"
+      }
     ],
     script: ['  !function(f,b,e,v,n,t,s)\n' +
     {
