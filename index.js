@@ -35,7 +35,6 @@ module.exports = {
         '@/plugins/antd-ui'
       ],
       components: ['~/components'],
-      modules: ['~/modules'],
     }),
   ],
 };
