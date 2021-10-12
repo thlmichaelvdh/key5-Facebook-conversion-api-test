@@ -1,4 +1,4 @@
 import Vue from 'vue'
-import Antd from 'ant-design-vue';
+import {Button, Card, Row, Col} from 'ant-design-vue';
 import 'ant-design-vue/dist/antd.css';
-Vue.use(Antd)
+Vue.use(Button, Card, Row, Col)
